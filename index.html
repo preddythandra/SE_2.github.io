@@ -4,62 +4,112 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <script defer src="script.js"></script>
-    <title>Coffee Store</title>
+    <title>ChatGPT Website</title>
+    <style>
+        body {
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #555;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            margin: 0 10px;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .button {
+            background-color: #4caf50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .button:hover {
+            background-color: #45a049;
+        }
+
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%;
+            padding-top: 30px;
+            height: 0;
+            overflow: hidden;
+        }
+
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
 </head>
 
 <body>
-    <!-- Navigation Bar -->
-    <nav>
-        <div class="logo">Coffee Store</div>
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#menu">Menu</a></li>
-            <li><a href="#gallery">Gallery</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-
-    <!-- Header Section -->
     <header>
-        <h1>Welcome to Our Coffee Store</h1>
-        <p>Discover the Finest Coffee Blends</p>
+        <h1>ChatGPT Website</h1>
     </header>
 
-    <!-- YouTube Video Player -->
-    <div class="video-container">
-        <!-- Replace 'VIDEO_ID' with your YouTube video ID -->
-        <iframe src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen></iframe>
-    </div>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </nav>
 
-    <!-- Image Gallery with Dynamic Focus Changes -->
-    <div id="gallery" class="image-gallery"></div>
+    <section>
+        <h2>Welcome to our Website!</h2>
+        <p>This is a visually appealing website generated with ChatGPT. Feel free to explore the features.</p>
 
-    <!-- Marquee Elements -->
-    <div class="marquee">
-        <p>This is a scrolling marquee with coffee-related information.</p>
-    </div>
-
-    <!-- Coffee Menu Section -->
-    <section id="menu">
-        <!-- Add your menu content here -->
-    </section>
-
-    <!-- Contact Information -->
-    <section id="contact">
-        <h2>Contact Us</h2>
-        <p>Email: info@coffeestore.com</p>
-        <p>Phone: +1 (555) 123-4567</p>
-    </section>
-
-    <!-- Footer with Input Text Field -->
-    <footer>
-        <div class="footer-content">
-            <input type="text" placeholder="Subscribe to our newsletter">
-            <button>Subscribe</button>
+        <div class="video-container">
+            <!-- Replace the iframe src with your video link -->
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/yourvideocode" frameborder="0"
+                allowfullscreen></iframe>
         </div>
+
+        <button class="button">Click me!</button>
+
+        <input type="text" placeholder="Enter text">
+
+        <p><strong>Contrast Ratio:</strong> <em>WAVE does not detect contrast of background gradients, transparency, etc. For background images, ...</em></p>
+        <p><strong>Text Size:</strong> <em>Lorem ipsum dolor sit amet.</em></p>
+
+    </section>
+
+    <footer>
+        <p>&copy; 2023 ChatGPT Website. All rights reserved.</p>
     </footer>
 </body>
 
 </html>
+
+        
